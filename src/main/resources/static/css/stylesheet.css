@@ -1,0 +1,114 @@
+/* Base Reset & Layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    padding: 2rem;
+    line-height: 1.6;
+}
+
+/* Headings */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+/* Container & Form Card */
+form {
+    background-color: #ffffff;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: 500;
+    color: #444;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.4rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: border 0.2s ease-in-out;
+}
+
+input[type="text"]:focus {
+    border-color: #1a73e8;
+    outline: none;
+}
+
+input[type="checkbox"] {
+    margin-left: 0.5rem;
+    transform: scale(1.2);
+}
+
+/* Buttons */
+button {
+    margin-top: 1.5rem;
+    padding: 0.6rem 1.5rem;
+    background-color: #1a73e8;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #155ab6;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #1a73e8;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Table for Task List */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+}
+
+th, td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+th {
+    background-color: #f5f7fa;
+    font-weight: 600;
+    color: #333;
+}
+
+td:last-child a {
+    margin-right: 1rem;
+}
