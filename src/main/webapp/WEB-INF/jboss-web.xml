@@ -6,8 +6,7 @@
            version="14.0">
     
     <context-root>/taskmanager</context-root>
-    
-    <!-- Enable class loading isolation -->
+    <!-- fix for  spring modduel config -->
     <class-loading>
         <module>
             <name>org.springframework.spring</name>
