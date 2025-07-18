@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
+    
+    <!-- Use JBoss logging instead of embedded server logging -->
+    <logger name="org.springframework.boot.web.embedded" level="OFF"/>
+    <logger name="org.springframework.boot.web.servlet.ServletRegistrationBean" level="OFF"/>
+    
+    <root level="INFO">
+        <!-- Use JBoss console appender -->
+        <appender-ref ref="CONSOLE"/>
+    </root>
+</configuration>

@@ -48,6 +48,18 @@
             </exclusions>
         </dependency>
 
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot-wweb</artifactId>-->
+<!--        </dependency>-->
+
+
         <!-- Thymeleaf without logback -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -55,7 +67,7 @@
             <exclusions>
                 <exclusion>
                     <groupId>ch.qos.logback</groupId>
-                    <artifactId>logback-classic</artifactId>
+                    <artifactId>logback-classclsic</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>
@@ -98,6 +110,12 @@
             <url>https://repository.jboss.org/nexus/content/groups/public/</url>
         </repository>
     </repositories>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/OWNER/REPOSITORY</url>
+        </repository>
+    </distributionManagement>
 
     <build>
         <plugins>
