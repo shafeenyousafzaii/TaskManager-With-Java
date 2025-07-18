@@ -9,4 +9,4 @@ WAR Packaging \
 SpringBootServletInitializer \
 Custom CSS / Static \
 Resources  \
-Excluding Logback for WildFly compatibility \
+Excluding Logback for WildFly compatibility 
