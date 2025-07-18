@@ -1,7 +1,7 @@
 # taskmanager
-TaskManager Created a full fledge functional taskmanager  JDK 17 ,
-Spring Boot (v3.5.3) 
-Spring MVC  
+TaskManager Created a full fledge functional taskmanager  JDK 17 ,\ 
+Spring Boot (v3.5.3) \
+Spring MVC  \
 Thymeleaf 
 Maven 
 WildFly (JBoss) 26.1.3.Final 
