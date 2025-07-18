@@ -14,27 +14,27 @@ A simple and elegant task management web application built with **Java**, **Spri
 ## 📸 Screenshots
 
 ### 🔍 Empty Task List View
-![Empty Task List](/mnt/data/dfa54471-4577-4a5d-8977-0dab313c2101.png)
+![Empty Task List](Screenshots/1.png)
 
 ---
 
 ### 🆕 Adding a Task
-![Create New Task](/mnt/data/a774941e-8f06-4c55-82c1-9c5657daed9d.png)
+![Create New Task](Screenshots/2.png)
 
 ---
 
 ### 📋 Populated Task List
-![Task List](/mnt/data/334b6c4f-d7e8-40f2-818f-6d95c6fa2643.png)
+![Task List](Screenshots/4.png)
 
 ---
 
 ### 🖊️ Edit Task
-![Edit Task](/mnt/data/6b7889d0-ef6c-4522-8ece-ffa37643843d.png)
+![Edit Task](Screenshots/3.pngg)
 
 ---
 
 ### ✅ Completed Task Status View
-![Completed Task](/mnt/data/93fe7681-3f0d-4263-9605-daaa7baee011.png)
+![Completed Task](Screenshots/5.png)
 
 ---
 
