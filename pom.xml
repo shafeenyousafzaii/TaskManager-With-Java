@@ -105,8 +105,8 @@
     </dependencies>
     <repositories>
         <repository>
-            <id>TaskManager-With-Java</id>
-            <name>TaskManager With Java</name>
+            <id>github</id>
+            <name>GitHub OWNER Apache Maven Packages</name>
             <url>https://github.com/shafeenyousafzaii/TaskManager-With-Java</url>
         </repository>
     </repositories>
