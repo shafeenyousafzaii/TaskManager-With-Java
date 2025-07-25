@@ -1,0 +1,13 @@
+env:
+  GITHUB_TOKEN: ${{ secrets.MY_TOK }}
+
+steps:
+  - uses: actions/setup-java@v4
+    with:
+      distribution: 'temurin'
+      java-version: '17'
+      server-id: github
+      settings-path: ${{ github.workspace }}
+
+  - name: Deploy with Maven
+    run: mvn deploy
